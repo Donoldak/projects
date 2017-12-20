@@ -1,0 +1,142 @@
+*{font-family: serif; margin: 0; padding: 0; background-color: #f2f2f2}
+
+
+.about {
+	height: 70px;
+}
+
+.about .col-md-6{
+	margin-left: 500px;
+	padding-top: 25px;
+}
+.about table th{
+	padding-right: 10px;
+}
+
+.login .col-md-6 {
+	background-color: white;
+	margin: 25px;
+	border: 2px solid #f2f2f2;
+	margin-left: 500px;
+	margin-right: 500px;
+	padding-left: 150px;
+	padding-right: 50px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 2px;
+}
+.login .col-md-6 span{
+	font-size: 30px;
+	background-color: white;
+	color: #808080;
+	
+}
+.about table th:hover{
+	cursor: pointer;
+	color: #FF9933;
+}
+
+.ghost-input-enter:hover{
+	display: block;
+  font-weight:200;
+  width: 100%;
+  font-size: 20px;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  outline: none;
+  width: 80%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #FF9933;
+  background: #fff;
+  font-family: Open Sans,Verdana;
+  padding: 10px 15px;
+  margin: 30px 0px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.ghost-input-enter{
+	display: block;
+  font-weight:200;
+  width: 100%;
+  font-size: 20px;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  outline: none;
+  width: 80%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #4b545f;
+  background: #fff;
+  font-family: Open Sans,Verdana;
+  padding: 10px 15px;
+  margin: 30px 0px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.ghost-input:focus {
+  display: block;
+  font-weight:200;
+  width: 100%;
+  font-size: 20px;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  outline: none;
+  width: 80%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #FF9933;
+  background: #f4f3f1;
+  font-family: Open Sans,Verdana;
+  padding: 10px 15px;
+  margin: 30px 0px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.ghost-input {
+  display: block;
+  font-weight:200;
+  width: 100%;
+  font-size: 20px;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  outline: none;
+  width: 80%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #4b545f;
+  background: #fff;
+  font-family: Open Sans,Verdana;
+  padding: 10px 15px;
+  margin: 30px 0px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.horizLine
+{
+    background: linear-gradient(to right, white, rgba(192,192,192, 0.5), white), linear-gradient(to bottom, white, rgba(80,80,80, 0.6), white);
+    height:10px;
+    }

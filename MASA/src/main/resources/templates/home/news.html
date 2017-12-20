@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml" xmlns:layout="http://www.w3.org/1999/xhtml"
+      layout:decorator="layouts/base">
+<body class=" bg-secondary">
+    <div class="row" layout:fragment="content">
+        <div class="order-1 order-md-1 col-md-3 mb-3">
+            <div th:replace="fragments/subscribes"></div>
+        </div>
+        <div class="order-3 order-md-2 col-md-6 mb-3">
+            <div th:each="post : ${posts}">
+                <div th:replace="fragments/postCard :: postCard(post=${post})"></div>
+            </div>
+
+        </div>
+        <div class="order-2 order-md-3 col-md-3 mb-3">
+            <div th:replace="fragments/profileStats"></div>
+        </div>
+    </div>
+</body>
+</html>
